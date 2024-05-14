@@ -1,0 +1,13 @@
+*  The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+
+* class definitions cannot be empty, but if you for some reason have a class definition with no content, put in the pass statement to avoid getting an error.
+
+class Animal:
+     pass 
+
+
+* Inheritance allows us to define a class that inherits all the methods and properties from another class. 
+
+
+* super() function that will make the child class inherit all the methods and properties from the parent class. 
+
