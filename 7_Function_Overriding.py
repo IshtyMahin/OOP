@@ -21,7 +21,6 @@ class Student(Person,Academic):
         Academic.__init__(self,cgpa)
         self.rollno = rollno
         
-    #  here display function override the base class display function
     def display(self):
         Person.display(self)
         print(self.rollno)

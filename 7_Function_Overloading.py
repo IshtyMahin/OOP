@@ -1,4 +1,3 @@
-# python does not support method overloading. We may define many methods of the same name and different arguments, but we can only use the latest defined method. 
 
 
 def sum(a, b):
@@ -7,11 +6,13 @@ def sum(a, b):
 def sum(a, b, c):
     return a + b + c 
 
-# print(sum(1, 3)) # give error
+# print(sum(1, 3)) #  error dibe
 print(sum(1, 2,3))
 
-# We achieve this by using default parameter values in the function
+# function overloading evabe kora jai na , evabe korle last er function ta kaj kore , ager ta use korle error dibe
 
+
+# jodi amar overloading kora lage tahole nicher moto kore default value=0 use kore kora jabe
 class Calculator:
     def add(self, a, b=0, c=0):
         return a + b + c
