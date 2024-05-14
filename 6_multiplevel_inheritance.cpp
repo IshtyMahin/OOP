@@ -19,12 +19,12 @@ class Student: public Person{
     }
 
 };
+
 class UniversityStudent: public Student{
    public:
        string major;
 
-       UniversityStudent(string name,int age,int rollno,string major):
-       Student(name,age,rollno){
+       UniversityStudent(string name,int age,int rollno,string major):Student(name,age,rollno){
         this->major = major;
        }
 
